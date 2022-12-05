@@ -23,12 +23,13 @@ class MyAdapter(listArray: ArrayList<ListItem>, context: Context): RecyclerView.
         fun bind(listItem: ListItem, context: Context){
             im.setImageResource(listItem.image_id)
             tvText.text = listItem.titleText
-            tvContent.text = listItem.content
+            val textCon = listItem.content.substring(0,50) + "..."
+            tvContent.text = textCon
             itemView.setOnClickListener(){
                 Toast.makeText(context, "pressed: ${tvText.text}", Toast.LENGTH_SHORT).show()
                 val intent = Intent(context, ContentActivity::class.java).apply {
                     putExtra("title", tvText.text.toString())
-                    putExtra("content", tvContent.text.toString())
+                    putExtra("content", listItem.content)
                     putExtra("image", listItem.image_id)
                 }
                 context.startActivity(intent)

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/Astronomy"
+            android:id="@+id/id_Astronomy"/>
+        <item android:title="@string/solar_system"
+            android:id="@+id/id_solar_system"/>
+        <item android:title="@string/starry_sky"
+            android:id="@+id/id_starry_sky"/>
+        <item android:title="@string/geography"
+            android:id="@+id/id_geography"/>
+        <item android:title="@string/story"
+            android:id="@+id/id_story"/>
+        <item android:title="@string/reckoning"
+            android:id="@+id/id_reckoning"/>
+        <item android:title="@string/ecology"
+            android:id="@+id/id_ecology"/>
+        <item android:title="@string/world_heritage"
+            android:id="@+id/id_world_heritage"/>
+    </group>
+    <item android:title="@string/dop">
+        <menu>
+            <item android:title="@string/about_app"
+                android:id="@+id/id_about_app"/>
+        </menu>
+    </item>
+
+</menu>

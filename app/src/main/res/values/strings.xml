@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">Environment-Tutorial</string>
+    <string name="app_name">Окружающий мир</string>
     <string name="title">Изучение человеком окружающего мира</string>
     <string name="Astronomy">Что изучает астрономия?</string>
+    <string name="Universe">1.Вселенная</string>
+    <string name="Sun">2.Солнце</string>
     <string name="solar_system">Изучаем Солнечную систему</string>
     <string name="starry_sky">Изучаем звёздное небо</string>
     <string name="geography">Что изучает география?</string>
@@ -9,4 +11,6 @@
     <string name="reckoning">Узнаём о летоисчислении</string>
     <string name="ecology">Что изучает экология?</string>
     <string name="world_heritage">Что вошло во Всемирное наследие</string>
+    <string name="dop">Дополнительно</string>
+    <string name="about_app">О приложении</string>
 </resources>

@@ -7,8 +7,25 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="Main_color">#1DD300</color>
-    <color name="Secondary_Color_A">#FFCF00</color>
-    <color name="Secondary_Color_B">#846FD7</color>
-    <color name="Secondary_Color_A_night">#138900</color>
+
+    
+
+
+    <color name="LightColorPrimary">#1DD300</color>
+    <color name="LightColorPrimaryVariant">#388e3c</color>
+    <color name="LightPrimary_Dark">#00a000</color>
+    <color name="navigationBarColor">#b0ff57</color>
+    <color name="LightColorSecondary">#f80012</color>
+    <color name="LightColorSecondaryVariant">#ff593f</color>
+
+    <color name="NightColorPrimary">#1b5e20</color>
+    <color name="NightColorPrimaryVariant">#4c8c49</color>
+    <color name="NightNavigationBarColor">#6abf69</color>
+    <color name="NightPrimary_Dark">#003300</color>
+    <color name="NightColorSecondary">#772422</color>
+    <color name="NightColorSecondaryVariant">#aa514a</color>
+
+
+
+
 </resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="astronomy">
+        <item>1. Вселенная</item>
+        <item>2. Солнце</item>
+    </string-array>
+
+    <string-array name="astronomy_content">
+        <item>Что такое астрономия?</item>
+        <item>Что такое солнце?</item>
+    </string-array>
+    
+    <array name="astronomy_image_array">
+        <item>@drawable/universe</item>
+        <item>@drawable/sun</item>
+    </array>
+
+
+
+
+    <string-array name="solar_system">
+        <item>1. Солнечная система</item>
+        <item>2. Вращение Земли</item>
+    </string-array>
+
+    <string-array name="solar_system_content">
+        <item>Что такое Солнечная система?</item>
+        <item>Что такое Вращение Земли?</item>
+    </string-array>
+
+    <array name="solar_system_image_array">
+        <item>@drawable/solar_system</item>
+        <item>@drawable/gadalaiki1</item>
+    </array>
+
+
+
+    <string-array name="starry_sky">
+        <item>1. Звёзды и созвездия</item>
+    </string-array>
+
+    <string-array name="starry_sky_content">
+        <item>Что такое Звёзды и созвездия?</item>
+    </string-array>
+
+    <array name="starry_sky_image_array">
+        <item>@drawable/starry_sky</item>
+    </array>
+
+
+
+
+    <string-array name="geography">
+        <item>1. Наука география</item>
+        <item>2. Изображения Земли</item>
+    </string-array>
+
+    <string-array name="geography_content">
+        <item>Что такое география?</item>
+        <item>Как выглядит Земля?</item>
+    </string-array>
+
+    <array name="geography_image_array">
+        <item>@drawable/eratosfen</item>
+        <item>@drawable/carte_and_globus</item>
+    </array>
+
+
+
+
+    <string-array name="story">
+        <item>1. Что такое «история»</item>
+        <item>2. Исторические источники</item>
+    </string-array>
+
+    <string-array name="story_content">
+        <item>Что изучает география?</item>
+        <item>Что такое исторические исходники и для чего они нужны?</item>
+    </string-array>
+
+    <array name="story_image_array">
+        <item>@drawable/clio</item>
+        <item>@drawable/thehistoricalmuseumofmoscow</item>
+    </array>
+
+
+
+    <string-array name="reckoning">
+        <item>1. Что такое время</item>
+        <item>2. Карта</item>
+    </string-array>
+
+    <string-array name="reckoning_content">
+        <item>как измеряется время?</item>
+        <item>Что такое карта?</item>
+    </string-array>
+
+    <array name="reckoning_image_array">
+        <item>@drawable/hourglass</item>
+        <item>@drawable/moscowgub</item>
+    </array>
+
+
+
+    <string-array name="ecology">
+        <item>1. Экология</item>
+        <item>2. Охрана окружающей среды</item>
+    </string-array>
+
+    <string-array name="ecology_content">
+        <item>как такое Экология?</item>
+        <item>для чего нужна охрана окружающей среды?</item>
+    </string-array>
+
+    <array name="ecology_image_array">
+        <item>@drawable/pollution</item>
+        <item>@drawable/bshutterstock</item>
+    </array>
+
+
+
+
+    <string-array name="world_heritage">
+        <item>1. Всемирное наследие ЮНЕСКО</item>
+        <item>2. Объекты Всемирного наследия</item>
+        <item>3. Красная книга</item>
+
+    </string-array>
+
+    <string-array name="world_heritage_content">
+        <item>как такое Всемирное наследие ЮНЕСКО?</item>
+        <item>как такое Объекты Всемирного наследия?</item>
+        <item>что такое Красная книга?</item>
+    </string-array>
+
+    <array name="world_heritage_image_array">
+        <item>@drawable/vsemirnoe_nasledie</item>
+        <item>@drawable/vsemirnoe</item>
+        <item>@drawable/srfyr</item>
+    </array>
+
+
+
+
+
+    <string-array name="about_app">
+        <item>О приложении</item>
+    </string-array>
+
+    <string-array name="about_app_content">
+        <item>Для чего сделано приложение и какие функции выполняет</item>
+
+    </string-array>
+
+    <array name="about_app_image_array">
+        <item>@drawable/download</item>
+    </array>
+
+</resources>

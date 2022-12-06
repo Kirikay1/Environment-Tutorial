@@ -3,8 +3,7 @@
     <style name="Theme.EnvironmentTutorial" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
     <!-- Primary brand color. -->
         <item name="colorPrimary">@color/LightColorPrimary</item>
-        <item name="colorPrimaryVariant">@color/LightColorPrimaryVariant</item>
-        <item name="colorPrimaryDark">@color/LightPrimary_Dark</item>
+        <item name="colorPrimaryVariant">@color/LightPrimary_Dark</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/LightColorSecondary</item>
@@ -15,7 +14,6 @@
         <!-- Customize your theme here. -->
         <item name="android:navigationBarColor">@color/navigationBarColor</item>
         <item name="android:textColor">@color/LightColorPrimary</item>
-        <item name="android:windowFullscreen">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

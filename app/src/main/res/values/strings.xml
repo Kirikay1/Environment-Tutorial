@@ -13,4 +13,6 @@
     <string name="world_heritage">Что вошло во Всемирное наследие</string>
     <string name="dop">Дополнительно</string>
     <string name="about_app">О приложении</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>

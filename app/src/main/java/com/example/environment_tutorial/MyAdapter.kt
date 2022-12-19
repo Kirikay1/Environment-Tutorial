@@ -31,7 +31,6 @@ class MyAdapter(listArray: ArrayList<ListItem>, context: Context): RecyclerView.
                     putExtra("content", listItem.content)
                     putExtra("image", listItem.image_id)
                 }
-                intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP)
                 context.startActivity(intent)
             }
         }

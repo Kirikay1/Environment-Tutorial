@@ -4,8 +4,11 @@ import android.content.DialogInterface
 import android.content.res.TypedArray
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
+import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -14,10 +17,21 @@ import com.google.android.material.navigation.NavigationView
 
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+    lateinit var toggle : ActionBarDrawerToggle
     var adapter: MyAdapter? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        var drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
+        var toolbar: Toolbar = findViewById(R.id.toolbar)
+
+        drawerLayout.openDrawer(GravityCompat.START);
+
+        setSupportActionBar(toolbar)
+
+        toggle = ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open, R.string.close)
+        drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
 
 
         title = "Окружающий мир"
@@ -89,6 +103,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val drawer: DrawerLayout = findViewById(R.id.drawerLayout)
         drawer.closeDrawer(GravityCompat.START)
         return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (toggle.onOptionsItemSelected(item)){
+            return true
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     fun fillArrays(titleArray: Array<String>, contentArray: Array<String>, imageArray: IntArray):List<ListItem>{

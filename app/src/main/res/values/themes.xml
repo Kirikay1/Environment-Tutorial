@@ -13,8 +13,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="android:navigationBarColor">@color/navigationBarColor</item>
-        <item name="android:textColor">@color/LightColorPrimary</item>
-        <item name="windowActionBar">false</item>
+        <item name="android:textColor">@color/black</item>
         <item name="windowNoTitle">true</item>
     </style>
 </resources>

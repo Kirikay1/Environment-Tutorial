@@ -14,7 +14,6 @@
         <!-- Customize your theme here. -->
         <item name="android:navigationBarColor">@color/NightNavigationBarColor</item>
         <item name="android:textColor">@color/white</item>
-        <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 </resources>
